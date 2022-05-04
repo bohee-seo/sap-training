@@ -15,9 +15,12 @@ Dim User_name
 Dim Password
 Dim Client
 
-User_name=Parameter("User_Name")
+User_name=Parameter("User_name")
 Password=Parameter("Password")
 Client=Parameter("Client")
+print User_name
+print Password
+print Client
 
 if AIUtil.FindTextBlock("More information").Exist then ' occurs sometimes because of unsigned certificate
 	AIUtil.FindTextBlock("More information").Click
