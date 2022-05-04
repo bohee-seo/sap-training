@@ -8,7 +8,7 @@ Cust_ref_Date=Parameter("Cust_ref_Date")
 Req_deliv_Date=Parameter("Req_deliv_Date")
 Cust_Reference=Parameter("Cust_Reference")
 Ship_to_Party=Parameter("Ship_to_Party")
-Ship_to_Party=Parameter("Sold_to_Party")
+Sold_to_Party=Parameter("Sold_to_Party")
 
 
 

@@ -1,1 +1,1 @@
-﻿RunAction "Action1", oneIteration
+﻿RunAction "Action1", oneIteration, Parameter("Order_type"), Parameter("Division"), Parameter("Distribution_channel"), Parameter("Sales_org"), Parameter("Cust_ref_Date"), Parameter("Req_deliv_Date"), Parameter("Cust_Reference"), Parameter("Ship_to_Party"), Parameter("Sold_to_Party"), Parameter("Order_number")
