@@ -28,7 +28,7 @@ End If
 'AIUtil("text_box", "User").Type "s4h_sd_dem"
 'AIUtil("text_box", "Password").Type "Welcome1"
 'AIUtil("text_box", "100").Type "100"
-
+wait (2)
 AIUtil("text_box", "User").Type User_name
 AIUtil("text_box", "Password").Type Password
 AIUtil("text_box", "100").Type Client
