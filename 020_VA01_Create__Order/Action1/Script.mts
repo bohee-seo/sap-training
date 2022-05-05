@@ -65,4 +65,5 @@ Parameter("Order_number")=StatusBarArray(2)
 'AIUtil.FindTextBlock("Exit").click
 AIUtil("left_triangle").Click
 AIUtil("left_triangle").Click
+AIUtil("left_triangle").Click
 
