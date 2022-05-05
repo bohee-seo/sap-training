@@ -14,6 +14,7 @@ Sold_to_Party=Parameter("Sold_to_Party")
 
 For xxx = 1 To 10 Step 1 ' this is my favorite way to wait for a long time
 	if AIUtil("search").Exist (xxx) then ' not that i wait for the loop index, so I wait longer every time through the loop
+	wait (2)
 		Exit for
 	end if
 Next
