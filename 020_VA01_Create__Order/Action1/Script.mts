@@ -44,7 +44,7 @@ AIUtil.FindTextBlock("Create Sales Documents").CheckExists True ' wait for the n
 
 AIUtil("text_box", "Order Type:").CheckExists True ' and, even though our eyes can see the Order Type, without this sync, the setting of the value fails
 AIUtil("text_box", "Order Type:").Type Order_type
-AIUtil("text_box", "Division:").Type Division	' to replay correctly, seem to need to input data from bottom to top
+AIUtil("text_box", "Division:").Type "00"	' to replay correctly, seem to need to input data from bottom to top
 AIUtil("text_box", "Distribution Channe:").Type Distribution_channel
 AIUtil("text_box", "Sales Organization:").Type Sales_org
 AIUtil("button", "Continue").Click
