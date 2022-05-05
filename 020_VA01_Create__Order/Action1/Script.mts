@@ -61,6 +61,7 @@ StatusBarText = AIUtil.FindTextBlock(micAnyText, micWithAnchorOnLeft, AIUtil("ch
 StatusBarArray = Split(StatusBarText," ")
 print  "The Order number is " & StatusBarArray(2)
 Parameter("Order_number")=StatusBarArray(2)
-AIUtil.FindTextBlock("Exit").click
+'AIUtil.FindTextBlock("Exit").click
+AIUtil("left_triangle").Click
 AIUtil("left_triangle").Click
 
