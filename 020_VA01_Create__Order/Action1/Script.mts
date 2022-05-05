@@ -64,6 +64,8 @@ print  "The Order number is " & StatusBarArray(2)
 Parameter("Order_number")=StatusBarArray(2)
 'AIUtil.FindTextBlock("Exit").click
 AIUtil("left_triangle").Click
+wait(2)
 AIUtil("left_triangle").Click
+wait(2)
 AIUtil("left_triangle").Click
 
